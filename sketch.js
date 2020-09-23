@@ -31,7 +31,7 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 
-	packageBody = Bodies.rectangle(width/2 , 200 , 5 , {restitution:1, isStatic:true});
+	packageBody = Bodies.rectangle(width/2 , 200 , 5 ,50, {restitution:1, isStatic:true});
 	World.add(world, packageBody);
 
 	//Create a Ground
